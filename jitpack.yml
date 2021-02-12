@@ -1,0 +1,11 @@
+install:
+   - echo "installing ..."
+   - pwd
+   - id -a
+   - ls -al
+   - mkdir -p ~/.m2/repository/info/guardianproject/netcipher/netcipher-okhttp3/2.0.0-alpha1
+   - cp maven-metadata.xml ~/.m2/repository/info/guardianproject/netcipher/netcipher-okhttp3/
+   - cp netcipher-okhttp3-2.0.0-alpha1.jar ~/.m2/repository/info/guardianproject/netcipher/netcipher-okhttp3/2.0.0-alpha1/
+   - cp netcipher-okhttp3-2.0.0-alpha1.aar ~/.m2/repository/info/guardianproject/netcipher/netcipher-okhttp3/2.0.0-alpha1/
+   - cp netcipher-okhttp3-2.0.0-alpha1.pom ~/.m2/repository/info/guardianproject/netcipher/netcipher-okhttp3/2.0.0-alpha1/
+
